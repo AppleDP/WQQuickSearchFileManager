@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>doc</key>
+	<string>Word</string>
+	<key>docx</key>
+	<string>Word</string>
+	<key>ppt</key>
+	<string>Ppt</string>
+	<key>xls</key>
+	<string>Excel</string>
+	<key>rar</key>
+	<string>Zip</string>
+	<key>7s</key>
+	<string>Zip</string>
+	<key>zip</key>
+	<string>Zip</string>
+	<key>txt</key>
+	<string>Txt</string>
+	<key>pdf</key>
+	<string>Pdf</string>
+	<key>jpg</key>
+	<string>Img</string>
+	<key>jpeg</key>
+	<string>Img</string>
+	<key>png</key>
+	<string>Img</string>
+	<key>tiff</key>
+	<string>Img</string>
+	<key>gif</key>
+	<string>Img</string>
+	<key>svg</key>
+	<string>Img</string>
+	<key>mp4</key>
+	<string>Video</string>
+	<key>mov</key>
+	<string>Video</string>
+	<key>avi</key>
+	<string>Video</string>
+	<key>wmv</key>
+	<string>Video</string>
+	<key>rm</key>
+	<string>Video</string>
+	<key>mp3</key>
+	<string>Misic</string>
+	<key>wav</key>
+	<string>Misic</string>
+	<key>wma</key>
+	<string>Misic</string>
+	<key>aac</key>
+	<string>Misic</string>
+	<key>vqf</key>
+	<string>Misic</string>
+	<key>ape</key>
+	<string>Misic</string>
+	<key>flac</key>
+	<string>Misic</string>
+	<key>ogg</key>
+	<string>Misic</string>
+</dict>
+</plist>

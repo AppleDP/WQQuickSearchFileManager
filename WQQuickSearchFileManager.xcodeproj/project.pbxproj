@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84971D691E5D76C4002F4D45 /* Excel.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D4E1E5D76C4002F4D45 /* Excel.png */; };
+		84971D6A1E5D76C4002F4D45 /* Excel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D4F1E5D76C4002F4D45 /* Excel@2x.png */; };
+		84971D6B1E5D76C4002F4D45 /* Excel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D501E5D76C4002F4D45 /* Excel@3x.png */; };
+		84971D6C1E5D76C4002F4D45 /* File.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D511E5D76C4002F4D45 /* File.png */; };
+		84971D6D1E5D76C4002F4D45 /* File@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D521E5D76C4002F4D45 /* File@2x.png */; };
+		84971D6E1E5D76C4002F4D45 /* File@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D531E5D76C4002F4D45 /* File@3x.png */; };
+		84971D6F1E5D76C4002F4D45 /* Finder.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D541E5D76C4002F4D45 /* Finder.png */; };
+		84971D701E5D76C4002F4D45 /* Finder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D551E5D76C4002F4D45 /* Finder@2x.png */; };
+		84971D711E5D76C4002F4D45 /* Finder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D561E5D76C4002F4D45 /* Finder@3x.png */; };
+		84971D721E5D76C4002F4D45 /* Img.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D571E5D76C4002F4D45 /* Img.png */; };
+		84971D731E5D76C4002F4D45 /* Img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D581E5D76C4002F4D45 /* Img@2x.png */; };
+		84971D741E5D76C4002F4D45 /* Img@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D591E5D76C4002F4D45 /* Img@3x.png */; };
+		84971D751E5D76C4002F4D45 /* Pdf.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D5A1E5D76C4002F4D45 /* Pdf.png */; };
+		84971D761E5D76C4002F4D45 /* Pdf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D5B1E5D76C4002F4D45 /* Pdf@2x.png */; };
+		84971D771E5D76C4002F4D45 /* Pdf@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D5C1E5D76C4002F4D45 /* Pdf@3x.png */; };
+		84971D781E5D76C4002F4D45 /* Ppt.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D5D1E5D76C4002F4D45 /* Ppt.png */; };
+		84971D791E5D76C4002F4D45 /* Ppt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D5E1E5D76C4002F4D45 /* Ppt@2x.png */; };
+		84971D7A1E5D76C4002F4D45 /* Ppt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D5F1E5D76C4002F4D45 /* Ppt@3x.png */; };
+		84971D7B1E5D76C4002F4D45 /* Txt.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D601E5D76C4002F4D45 /* Txt.png */; };
+		84971D7C1E5D76C4002F4D45 /* Txt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D611E5D76C4002F4D45 /* Txt@2x.png */; };
+		84971D7D1E5D76C4002F4D45 /* Txt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D621E5D76C4002F4D45 /* Txt@3x.png */; };
+		84971D7E1E5D76C4002F4D45 /* Word.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D631E5D76C4002F4D45 /* Word.png */; };
+		84971D7F1E5D76C4002F4D45 /* Word@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D641E5D76C4002F4D45 /* Word@2x.png */; };
+		84971D801E5D76C4002F4D45 /* Word@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D651E5D76C4002F4D45 /* Word@3x.png */; };
+		84971D811E5D76C4002F4D45 /* Zip.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D661E5D76C4002F4D45 /* Zip.png */; };
+		84971D821E5D76C4002F4D45 /* Zip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D671E5D76C4002F4D45 /* Zip@2x.png */; };
+		84971D831E5D76C4002F4D45 /* Zip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D681E5D76C4002F4D45 /* Zip@3x.png */; };
+		84971D931E5D8773002F4D45 /* Back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D901E5D8773002F4D45 /* Back@3x.png */; };
+		84971D941E5D8773002F4D45 /* Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D911E5D8773002F4D45 /* Back@2x.png */; };
+		84971D951E5D8773002F4D45 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D921E5D8773002F4D45 /* Back.png */; };
+		84971D991E5D8B88002F4D45 /* Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D961E5D8B88002F4D45 /* Refresh.png */; };
+		84971D9A1E5D8B88002F4D45 /* Refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D971E5D8B88002F4D45 /* Refresh@2x.png */; };
+		84971D9B1E5D8B88002F4D45 /* Refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D981E5D8B88002F4D45 /* Refresh@3x.png */; };
+		84971D9D1E5D9031002F4D45 /* WQImageForExtension.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84971D9C1E5D9031002F4D45 /* WQImageForExtension.plist */; };
+		84AEBD921E5D3627001684BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEBD911E5D3627001684BB /* main.m */; };
+		84AEBD951E5D3627001684BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEBD941E5D3627001684BB /* AppDelegate.m */; };
+		84AEBD981E5D3627001684BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEBD971E5D3627001684BB /* ViewController.m */; };
+		84AEBD9B1E5D3627001684BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AEBD991E5D3627001684BB /* Main.storyboard */; };
+		84AEBD9D1E5D3627001684BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AEBD9C1E5D3627001684BB /* Assets.xcassets */; };
+		84AEBDA01E5D3627001684BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AEBD9E1E5D3627001684BB /* LaunchScreen.storyboard */; };
+		84AEBDAB1E5D3627001684BB /* WQQuickSearchFileManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEBDAA1E5D3627001684BB /* WQQuickSearchFileManagerTests.m */; };
+		84AEBDB61E5D3627001684BB /* WQQuickSearchFileManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEBDB51E5D3627001684BB /* WQQuickSearchFileManagerUITests.m */; };
+		84AEBDC91E5D3D81001684BB /* WQQuickSearchFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEBDC81E5D3D81001684BB /* WQQuickSearchFileManager.m */; };
+		84BAF9F41E5E744700D8FD67 /* Video@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BAF9EE1E5E744700D8FD67 /* Video@3x.png */; };
+		84BAF9F51E5E744700D8FD67 /* Music@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BAF9EF1E5E744700D8FD67 /* Music@3x.png */; };
+		84BAF9F61E5E744700D8FD67 /* Video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BAF9F01E5E744700D8FD67 /* Video@2x.png */; };
+		84BAF9F71E5E744700D8FD67 /* Music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BAF9F11E5E744700D8FD67 /* Music@2x.png */; };
+		84BAF9F81E5E744700D8FD67 /* Video.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BAF9F21E5E744700D8FD67 /* Video.png */; };
+		84BAF9F91E5E744700D8FD67 /* Music.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BAF9F31E5E744700D8FD67 /* Music.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84AEBDA71E5D3627001684BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AEBD851E5D3627001684BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AEBD8C1E5D3627001684BB;
+			remoteInfo = WQQuickSearchFileManager;
+		};
+		84AEBDB21E5D3627001684BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AEBD851E5D3627001684BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AEBD8C1E5D3627001684BB;
+			remoteInfo = WQQuickSearchFileManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84971D4E1E5D76C4002F4D45 /* Excel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Excel.png; sourceTree = "<group>"; };
+		84971D4F1E5D76C4002F4D45 /* Excel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Excel@2x.png"; sourceTree = "<group>"; };
+		84971D501E5D76C4002F4D45 /* Excel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Excel@3x.png"; sourceTree = "<group>"; };
+		84971D511E5D76C4002F4D45 /* File.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = File.png; sourceTree = "<group>"; };
+		84971D521E5D76C4002F4D45 /* File@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File@2x.png"; sourceTree = "<group>"; };
+		84971D531E5D76C4002F4D45 /* File@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File@3x.png"; sourceTree = "<group>"; };
+		84971D541E5D76C4002F4D45 /* Finder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Finder.png; sourceTree = "<group>"; };
+		84971D551E5D76C4002F4D45 /* Finder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Finder@2x.png"; sourceTree = "<group>"; };
+		84971D561E5D76C4002F4D45 /* Finder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Finder@3x.png"; sourceTree = "<group>"; };
+		84971D571E5D76C4002F4D45 /* Img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Img.png; sourceTree = "<group>"; };
+		84971D581E5D76C4002F4D45 /* Img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Img@2x.png"; sourceTree = "<group>"; };
+		84971D591E5D76C4002F4D45 /* Img@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Img@3x.png"; sourceTree = "<group>"; };
+		84971D5A1E5D76C4002F4D45 /* Pdf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pdf.png; sourceTree = "<group>"; };
+		84971D5B1E5D76C4002F4D45 /* Pdf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pdf@2x.png"; sourceTree = "<group>"; };
+		84971D5C1E5D76C4002F4D45 /* Pdf@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pdf@3x.png"; sourceTree = "<group>"; };
+		84971D5D1E5D76C4002F4D45 /* Ppt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ppt.png; sourceTree = "<group>"; };
+		84971D5E1E5D76C4002F4D45 /* Ppt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ppt@2x.png"; sourceTree = "<group>"; };
+		84971D5F1E5D76C4002F4D45 /* Ppt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ppt@3x.png"; sourceTree = "<group>"; };
+		84971D601E5D76C4002F4D45 /* Txt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Txt.png; sourceTree = "<group>"; };
+		84971D611E5D76C4002F4D45 /* Txt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Txt@2x.png"; sourceTree = "<group>"; };
+		84971D621E5D76C4002F4D45 /* Txt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Txt@3x.png"; sourceTree = "<group>"; };
+		84971D631E5D76C4002F4D45 /* Word.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Word.png; sourceTree = "<group>"; };
+		84971D641E5D76C4002F4D45 /* Word@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Word@2x.png"; sourceTree = "<group>"; };
+		84971D651E5D76C4002F4D45 /* Word@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Word@3x.png"; sourceTree = "<group>"; };
+		84971D661E5D76C4002F4D45 /* Zip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zip.png; sourceTree = "<group>"; };
+		84971D671E5D76C4002F4D45 /* Zip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Zip@2x.png"; sourceTree = "<group>"; };
+		84971D681E5D76C4002F4D45 /* Zip@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Zip@3x.png"; sourceTree = "<group>"; };
+		84971D901E5D8773002F4D45 /* Back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back@3x.png"; sourceTree = "<group>"; };
+		84971D911E5D8773002F4D45 /* Back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back@2x.png"; sourceTree = "<group>"; };
+		84971D921E5D8773002F4D45 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		84971D961E5D8B88002F4D45 /* Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Refresh.png; sourceTree = "<group>"; };
+		84971D971E5D8B88002F4D45 /* Refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refresh@2x.png"; sourceTree = "<group>"; };
+		84971D981E5D8B88002F4D45 /* Refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refresh@3x.png"; sourceTree = "<group>"; };
+		84971D9C1E5D9031002F4D45 /* WQImageForExtension.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WQImageForExtension.plist; sourceTree = "<group>"; };
+		84AEBD8D1E5D3627001684BB /* WQQuickSearchFileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQQuickSearchFileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AEBD911E5D3627001684BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84AEBD931E5D3627001684BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84AEBD941E5D3627001684BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84AEBD961E5D3627001684BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84AEBD971E5D3627001684BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84AEBD9A1E5D3627001684BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84AEBD9C1E5D3627001684BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84AEBD9F1E5D3627001684BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84AEBDA11E5D3627001684BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AEBDA61E5D3627001684BB /* WQQuickSearchFileManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQQuickSearchFileManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AEBDAA1E5D3627001684BB /* WQQuickSearchFileManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQQuickSearchFileManagerTests.m; sourceTree = "<group>"; };
+		84AEBDAC1E5D3627001684BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AEBDB11E5D3627001684BB /* WQQuickSearchFileManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQQuickSearchFileManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AEBDB51E5D3627001684BB /* WQQuickSearchFileManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQQuickSearchFileManagerUITests.m; sourceTree = "<group>"; };
+		84AEBDB71E5D3627001684BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AEBDC71E5D3D81001684BB /* WQQuickSearchFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQQuickSearchFileManager.h; sourceTree = "<group>"; };
+		84AEBDC81E5D3D81001684BB /* WQQuickSearchFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQQuickSearchFileManager.m; sourceTree = "<group>"; };
+		84BAF9EE1E5E744700D8FD67 /* Video@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Video@3x.png"; sourceTree = "<group>"; };
+		84BAF9EF1E5E744700D8FD67 /* Music@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Music@3x.png"; sourceTree = "<group>"; };
+		84BAF9F01E5E744700D8FD67 /* Video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Video@2x.png"; sourceTree = "<group>"; };
+		84BAF9F11E5E744700D8FD67 /* Music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Music@2x.png"; sourceTree = "<group>"; };
+		84BAF9F21E5E744700D8FD67 /* Video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video.png; sourceTree = "<group>"; };
+		84BAF9F31E5E744700D8FD67 /* Music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Music.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AEBD8A1E5D3627001684BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AEBDA31E5D3627001684BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AEBDAE1E5D3627001684BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84971D4D1E5D7632002F4D45 /* FileImage */ = {
+			isa = PBXGroup;
+			children = (
+				84BAF9EE1E5E744700D8FD67 /* Video@3x.png */,
+				84BAF9EF1E5E744700D8FD67 /* Music@3x.png */,
+				84BAF9F01E5E744700D8FD67 /* Video@2x.png */,
+				84BAF9F11E5E744700D8FD67 /* Music@2x.png */,
+				84BAF9F21E5E744700D8FD67 /* Video.png */,
+				84BAF9F31E5E744700D8FD67 /* Music.png */,
+				84971D961E5D8B88002F4D45 /* Refresh.png */,
+				84971D971E5D8B88002F4D45 /* Refresh@2x.png */,
+				84971D981E5D8B88002F4D45 /* Refresh@3x.png */,
+				84971D901E5D8773002F4D45 /* Back@3x.png */,
+				84971D911E5D8773002F4D45 /* Back@2x.png */,
+				84971D921E5D8773002F4D45 /* Back.png */,
+				84971D4E1E5D76C4002F4D45 /* Excel.png */,
+				84971D4F1E5D76C4002F4D45 /* Excel@2x.png */,
+				84971D501E5D76C4002F4D45 /* Excel@3x.png */,
+				84971D511E5D76C4002F4D45 /* File.png */,
+				84971D521E5D76C4002F4D45 /* File@2x.png */,
+				84971D531E5D76C4002F4D45 /* File@3x.png */,
+				84971D541E5D76C4002F4D45 /* Finder.png */,
+				84971D551E5D76C4002F4D45 /* Finder@2x.png */,
+				84971D561E5D76C4002F4D45 /* Finder@3x.png */,
+				84971D571E5D76C4002F4D45 /* Img.png */,
+				84971D581E5D76C4002F4D45 /* Img@2x.png */,
+				84971D591E5D76C4002F4D45 /* Img@3x.png */,
+				84971D5A1E5D76C4002F4D45 /* Pdf.png */,
+				84971D5B1E5D76C4002F4D45 /* Pdf@2x.png */,
+				84971D5C1E5D76C4002F4D45 /* Pdf@3x.png */,
+				84971D5D1E5D76C4002F4D45 /* Ppt.png */,
+				84971D5E1E5D76C4002F4D45 /* Ppt@2x.png */,
+				84971D5F1E5D76C4002F4D45 /* Ppt@3x.png */,
+				84971D601E5D76C4002F4D45 /* Txt.png */,
+				84971D611E5D76C4002F4D45 /* Txt@2x.png */,
+				84971D621E5D76C4002F4D45 /* Txt@3x.png */,
+				84971D631E5D76C4002F4D45 /* Word.png */,
+				84971D641E5D76C4002F4D45 /* Word@2x.png */,
+				84971D651E5D76C4002F4D45 /* Word@3x.png */,
+				84971D661E5D76C4002F4D45 /* Zip.png */,
+				84971D671E5D76C4002F4D45 /* Zip@2x.png */,
+				84971D681E5D76C4002F4D45 /* Zip@3x.png */,
+			);
+			path = FileImage;
+			sourceTree = "<group>";
+		};
+		84AEBD841E5D3627001684BB = {
+			isa = PBXGroup;
+			children = (
+				84AEBD8F1E5D3627001684BB /* WQQuickSearchFileManager */,
+				84AEBDA91E5D3627001684BB /* WQQuickSearchFileManagerTests */,
+				84AEBDB41E5D3627001684BB /* WQQuickSearchFileManagerUITests */,
+				84AEBD8E1E5D3627001684BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AEBD8E1E5D3627001684BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AEBD8D1E5D3627001684BB /* WQQuickSearchFileManager.app */,
+				84AEBDA61E5D3627001684BB /* WQQuickSearchFileManagerTests.xctest */,
+				84AEBDB11E5D3627001684BB /* WQQuickSearchFileManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AEBD8F1E5D3627001684BB /* WQQuickSearchFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				84AEBDC31E5D363B001684BB /* WQQuickSearchFileManager */,
+				84AEBD931E5D3627001684BB /* AppDelegate.h */,
+				84AEBD941E5D3627001684BB /* AppDelegate.m */,
+				84AEBD961E5D3627001684BB /* ViewController.h */,
+				84AEBD971E5D3627001684BB /* ViewController.m */,
+				84AEBD991E5D3627001684BB /* Main.storyboard */,
+				84AEBD9C1E5D3627001684BB /* Assets.xcassets */,
+				84AEBD9E1E5D3627001684BB /* LaunchScreen.storyboard */,
+				84AEBDA11E5D3627001684BB /* Info.plist */,
+				84AEBD901E5D3627001684BB /* Supporting Files */,
+			);
+			path = WQQuickSearchFileManager;
+			sourceTree = "<group>";
+		};
+		84AEBD901E5D3627001684BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AEBD911E5D3627001684BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84AEBDA91E5D3627001684BB /* WQQuickSearchFileManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				84AEBDAA1E5D3627001684BB /* WQQuickSearchFileManagerTests.m */,
+				84AEBDAC1E5D3627001684BB /* Info.plist */,
+			);
+			path = WQQuickSearchFileManagerTests;
+			sourceTree = "<group>";
+		};
+		84AEBDB41E5D3627001684BB /* WQQuickSearchFileManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84AEBDB51E5D3627001684BB /* WQQuickSearchFileManagerUITests.m */,
+				84AEBDB71E5D3627001684BB /* Info.plist */,
+			);
+			path = WQQuickSearchFileManagerUITests;
+			sourceTree = "<group>";
+		};
+		84AEBDC31E5D363B001684BB /* WQQuickSearchFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				84971D4D1E5D7632002F4D45 /* FileImage */,
+				84AEBDC71E5D3D81001684BB /* WQQuickSearchFileManager.h */,
+				84AEBDC81E5D3D81001684BB /* WQQuickSearchFileManager.m */,
+				84971D9C1E5D9031002F4D45 /* WQImageForExtension.plist */,
+			);
+			path = WQQuickSearchFileManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AEBD8C1E5D3627001684BB /* WQQuickSearchFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AEBDBA1E5D3627001684BB /* Build configuration list for PBXNativeTarget "WQQuickSearchFileManager" */;
+			buildPhases = (
+				84AEBD891E5D3627001684BB /* Sources */,
+				84AEBD8A1E5D3627001684BB /* Frameworks */,
+				84AEBD8B1E5D3627001684BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WQQuickSearchFileManager;
+			productName = WQQuickSearchFileManager;
+			productReference = 84AEBD8D1E5D3627001684BB /* WQQuickSearchFileManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84AEBDA51E5D3627001684BB /* WQQuickSearchFileManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AEBDBD1E5D3627001684BB /* Build configuration list for PBXNativeTarget "WQQuickSearchFileManagerTests" */;
+			buildPhases = (
+				84AEBDA21E5D3627001684BB /* Sources */,
+				84AEBDA31E5D3627001684BB /* Frameworks */,
+				84AEBDA41E5D3627001684BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AEBDA81E5D3627001684BB /* PBXTargetDependency */,
+			);
+			name = WQQuickSearchFileManagerTests;
+			productName = WQQuickSearchFileManagerTests;
+			productReference = 84AEBDA61E5D3627001684BB /* WQQuickSearchFileManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84AEBDB01E5D3627001684BB /* WQQuickSearchFileManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AEBDC01E5D3627001684BB /* Build configuration list for PBXNativeTarget "WQQuickSearchFileManagerUITests" */;
+			buildPhases = (
+				84AEBDAD1E5D3627001684BB /* Sources */,
+				84AEBDAE1E5D3627001684BB /* Frameworks */,
+				84AEBDAF1E5D3627001684BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AEBDB31E5D3627001684BB /* PBXTargetDependency */,
+			);
+			name = WQQuickSearchFileManagerUITests;
+			productName = WQQuickSearchFileManagerUITests;
+			productReference = 84AEBDB11E5D3627001684BB /* WQQuickSearchFileManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AEBD851E5D3627001684BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jolimark;
+				TargetAttributes = {
+					84AEBD8C1E5D3627001684BB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					84AEBDA51E5D3627001684BB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 84AEBD8C1E5D3627001684BB;
+					};
+					84AEBDB01E5D3627001684BB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 84AEBD8C1E5D3627001684BB;
+					};
+				};
+			};
+			buildConfigurationList = 84AEBD881E5D3627001684BB /* Build configuration list for PBXProject "WQQuickSearchFileManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84AEBD841E5D3627001684BB;
+			productRefGroup = 84AEBD8E1E5D3627001684BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AEBD8C1E5D3627001684BB /* WQQuickSearchFileManager */,
+				84AEBDA51E5D3627001684BB /* WQQuickSearchFileManagerTests */,
+				84AEBDB01E5D3627001684BB /* WQQuickSearchFileManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AEBD8B1E5D3627001684BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84971D6D1E5D76C4002F4D45 /* File@2x.png in Resources */,
+				84AEBDA01E5D3627001684BB /* LaunchScreen.storyboard in Resources */,
+				84971D7B1E5D76C4002F4D45 /* Txt.png in Resources */,
+				84971D781E5D76C4002F4D45 /* Ppt.png in Resources */,
+				84971D791E5D76C4002F4D45 /* Ppt@2x.png in Resources */,
+				84971D831E5D76C4002F4D45 /* Zip@3x.png in Resources */,
+				84BAF9F51E5E744700D8FD67 /* Music@3x.png in Resources */,
+				84971D811E5D76C4002F4D45 /* Zip.png in Resources */,
+				84BAF9F41E5E744700D8FD67 /* Video@3x.png in Resources */,
+				84971D691E5D76C4002F4D45 /* Excel.png in Resources */,
+				84971D711E5D76C4002F4D45 /* Finder@3x.png in Resources */,
+				84BAF9F71E5E744700D8FD67 /* Music@2x.png in Resources */,
+				84971D951E5D8773002F4D45 /* Back.png in Resources */,
+				84971D821E5D76C4002F4D45 /* Zip@2x.png in Resources */,
+				84971D7C1E5D76C4002F4D45 /* Txt@2x.png in Resources */,
+				84971D751E5D76C4002F4D45 /* Pdf.png in Resources */,
+				84971D721E5D76C4002F4D45 /* Img.png in Resources */,
+				84971D701E5D76C4002F4D45 /* Finder@2x.png in Resources */,
+				84971D9B1E5D8B88002F4D45 /* Refresh@3x.png in Resources */,
+				84971D6E1E5D76C4002F4D45 /* File@3x.png in Resources */,
+				84971D9D1E5D9031002F4D45 /* WQImageForExtension.plist in Resources */,
+				84971D7E1E5D76C4002F4D45 /* Word.png in Resources */,
+				84971D761E5D76C4002F4D45 /* Pdf@2x.png in Resources */,
+				84971D6A1E5D76C4002F4D45 /* Excel@2x.png in Resources */,
+				84971D6F1E5D76C4002F4D45 /* Finder.png in Resources */,
+				84971D931E5D8773002F4D45 /* Back@3x.png in Resources */,
+				84971D991E5D8B88002F4D45 /* Refresh.png in Resources */,
+				84971D6C1E5D76C4002F4D45 /* File.png in Resources */,
+				84971D7D1E5D76C4002F4D45 /* Txt@3x.png in Resources */,
+				84BAF9F81E5E744700D8FD67 /* Video.png in Resources */,
+				84971D731E5D76C4002F4D45 /* Img@2x.png in Resources */,
+				84971D7A1E5D76C4002F4D45 /* Ppt@3x.png in Resources */,
+				84971D6B1E5D76C4002F4D45 /* Excel@3x.png in Resources */,
+				84971D941E5D8773002F4D45 /* Back@2x.png in Resources */,
+				84BAF9F61E5E744700D8FD67 /* Video@2x.png in Resources */,
+				84971D9A1E5D8B88002F4D45 /* Refresh@2x.png in Resources */,
+				84971D771E5D76C4002F4D45 /* Pdf@3x.png in Resources */,
+				84AEBD9D1E5D3627001684BB /* Assets.xcassets in Resources */,
+				84AEBD9B1E5D3627001684BB /* Main.storyboard in Resources */,
+				84971D7F1E5D76C4002F4D45 /* Word@2x.png in Resources */,
+				84971D741E5D76C4002F4D45 /* Img@3x.png in Resources */,
+				84971D801E5D76C4002F4D45 /* Word@3x.png in Resources */,
+				84BAF9F91E5E744700D8FD67 /* Music.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AEBDA41E5D3627001684BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AEBDAF1E5D3627001684BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AEBD891E5D3627001684BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AEBD981E5D3627001684BB /* ViewController.m in Sources */,
+				84AEBD951E5D3627001684BB /* AppDelegate.m in Sources */,
+				84AEBDC91E5D3D81001684BB /* WQQuickSearchFileManager.m in Sources */,
+				84AEBD921E5D3627001684BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AEBDA21E5D3627001684BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AEBDAB1E5D3627001684BB /* WQQuickSearchFileManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AEBDAD1E5D3627001684BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AEBDB61E5D3627001684BB /* WQQuickSearchFileManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84AEBDA81E5D3627001684BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AEBD8C1E5D3627001684BB /* WQQuickSearchFileManager */;
+			targetProxy = 84AEBDA71E5D3627001684BB /* PBXContainerItemProxy */;
+		};
+		84AEBDB31E5D3627001684BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AEBD8C1E5D3627001684BB /* WQQuickSearchFileManager */;
+			targetProxy = 84AEBDB21E5D3627001684BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84AEBD991E5D3627001684BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AEBD9A1E5D3627001684BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84AEBD9E1E5D3627001684BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AEBD9F1E5D3627001684BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84AEBDB81E5D3627001684BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84AEBDB91E5D3627001684BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AEBDBB1E5D3627001684BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WQQuickSearchFileManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WQQuickSearchFileManager",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jolimark.www.WQQuickSearchFileManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84AEBDBC1E5D3627001684BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WQQuickSearchFileManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WQQuickSearchFileManager",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jolimark.www.WQQuickSearchFileManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84AEBDBE1E5D3627001684BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WQQuickSearchFileManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jolimark.www.WQQuickSearchFileManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WQQuickSearchFileManager.app/WQQuickSearchFileManager";
+			};
+			name = Debug;
+		};
+		84AEBDBF1E5D3627001684BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WQQuickSearchFileManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jolimark.www.WQQuickSearchFileManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WQQuickSearchFileManager.app/WQQuickSearchFileManager";
+			};
+			name = Release;
+		};
+		84AEBDC11E5D3627001684BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WQQuickSearchFileManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jolimark.www.WQQuickSearchFileManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WQQuickSearchFileManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		84AEBDC21E5D3627001684BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WQQuickSearchFileManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jolimark.www.WQQuickSearchFileManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WQQuickSearchFileManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AEBD881E5D3627001684BB /* Build configuration list for PBXProject "WQQuickSearchFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AEBDB81E5D3627001684BB /* Debug */,
+				84AEBDB91E5D3627001684BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AEBDBA1E5D3627001684BB /* Build configuration list for PBXNativeTarget "WQQuickSearchFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AEBDBB1E5D3627001684BB /* Debug */,
+				84AEBDBC1E5D3627001684BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AEBDBD1E5D3627001684BB /* Build configuration list for PBXNativeTarget "WQQuickSearchFileManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AEBDBE1E5D3627001684BB /* Debug */,
+				84AEBDBF1E5D3627001684BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AEBDC01E5D3627001684BB /* Build configuration list for PBXNativeTarget "WQQuickSearchFileManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AEBDC11E5D3627001684BB /* Debug */,
+				84AEBDC21E5D3627001684BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AEBD851E5D3627001684BB /* Project object */;
+}
