@@ -264,8 +264,14 @@
     [fm changeCurrentDirectoryPath:path];
     
     // 当前路径所有文件以及文件夹
-    self.contentsDirectory = [fm contentsOfDirectoryAtPath:path
-                                                     error:nil];
+    NSArray *directory = [fm contentsOfDirectoryAtPath:path
+                                                 error:nil];
+    self.contentsDirectory = [directory sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1,
+                                                                                       id  _Nonnull obj2) {
+        NSString *str1 = obj1;
+        NSString *str2 = obj2;
+        return [str1 compare:str2];
+    }];
 }
 
 - (UIImage *)imageWithFilePath:(NSString *)path {
