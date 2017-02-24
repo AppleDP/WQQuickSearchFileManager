@@ -24,11 +24,6 @@
     [super viewDidLoad];
     self.manager = [[WQQuickSearchFileManager alloc] init];
     self.manager.delegate = self;
-    NSLog(@"%@",NSHomeDirectory());
-    self.rootPath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory,
-                                                        NSUserDomainMask,
-                                                        YES)[0];
-    self.lab.text = [NSString stringWithFormat:@"Root: %@",self.rootPath];
 }
 
 - (void)createWindow {
@@ -46,7 +41,19 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)open:(UIButton *)sender {
+- (IBAction)openDcument:(UIButton *)sender {
+    self.rootPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,
+                                                        NSUserDomainMask,
+                                                        YES)[0];
+    self.lab.text = [NSString stringWithFormat:@"Root: %@",self.rootPath];
+    [self.manager showRootDirectory:self.rootPath];
+}
+
+- (IBAction)openCaches:(UIButton *)sender {
+    self.rootPath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory,
+                                                        NSUserDomainMask,
+                                                        YES)[0];
+    self.lab.text = [NSString stringWithFormat:@"Root: %@",self.rootPath];
     [self.manager showRootDirectory:self.rootPath];
 }
 

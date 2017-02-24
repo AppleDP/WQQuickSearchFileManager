@@ -1,0 +1,9 @@
+
+/* Class = "UINavigationItem"; title = "快速查看文件"; ObjectID = "I6a-KJ-xqc"; */
+"I6a-KJ-xqc.title" = "快速查看文件";
+
+/* Class = "UIButton"; normalTitle = "查看"; ObjectID = "eyh-7b-R5R"; */
+"eyh-7b-R5R.normalTitle" = "查看";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vpa-A0-Oqn"; */
+"vpa-A0-Oqn.text" = "Label";

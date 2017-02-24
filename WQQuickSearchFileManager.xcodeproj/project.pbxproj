@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844168001E600176000FCFCD /* WQLocalized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 844168021E600176000FCFCD /* WQLocalized.strings */; };
 		84971D691E5D76C4002F4D45 /* Excel.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D4E1E5D76C4002F4D45 /* Excel.png */; };
 		84971D6A1E5D76C4002F4D45 /* Excel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D4F1E5D76C4002F4D45 /* Excel@2x.png */; };
 		84971D6B1E5D76C4002F4D45 /* Excel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84971D501E5D76C4002F4D45 /* Excel@3x.png */; };
@@ -76,6 +77,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		844167FE1E600170000FCFCD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		844167FF1E600170000FCFCD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		844168011E600176000FCFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/WQLocalized.strings; sourceTree = "<group>"; };
+		844168031E600179000FCFCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/WQLocalized.strings; sourceTree = "<group>"; };
+		844168041E60017A000FCFCD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/WQLocalized.strings"; sourceTree = "<group>"; };
 		84971D4E1E5D76C4002F4D45 /* Excel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Excel.png; sourceTree = "<group>"; };
 		84971D4F1E5D76C4002F4D45 /* Excel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Excel@2x.png"; sourceTree = "<group>"; };
 		84971D501E5D76C4002F4D45 /* Excel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Excel@3x.png"; sourceTree = "<group>"; };
@@ -277,6 +283,7 @@
 				84AEBDC71E5D3D81001684BB /* WQQuickSearchFileManager.h */,
 				84AEBDC81E5D3D81001684BB /* WQQuickSearchFileManager.m */,
 				84971D9C1E5D9031002F4D45 /* WQImageForExtension.plist */,
+				844168021E600176000FCFCD /* WQLocalized.strings */,
 			);
 			path = WQQuickSearchFileManager;
 			sourceTree = "<group>";
@@ -366,6 +373,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 84AEBD841E5D3627001684BB;
 			productRefGroup = 84AEBD8E1E5D3627001684BB /* Products */;
@@ -420,6 +428,7 @@
 				84971D941E5D8773002F4D45 /* Back@2x.png in Resources */,
 				84BAF9F61E5E744700D8FD67 /* Video@2x.png in Resources */,
 				84971D9A1E5D8B88002F4D45 /* Refresh@2x.png in Resources */,
+				844168001E600176000FCFCD /* WQLocalized.strings in Resources */,
 				84971D771E5D76C4002F4D45 /* Pdf@3x.png in Resources */,
 				84AEBD9D1E5D3627001684BB /* Assets.xcassets in Resources */,
 				84AEBD9B1E5D3627001684BB /* Main.storyboard in Resources */,
@@ -490,10 +499,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		844168021E600176000FCFCD /* WQLocalized.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844168011E600176000FCFCD /* Base */,
+				844168031E600179000FCFCD /* en */,
+				844168041E60017A000FCFCD /* zh-Hans */,
+			);
+			name = WQLocalized.strings;
+			sourceTree = "<group>";
+		};
 		84AEBD991E5D3627001684BB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				84AEBD9A1E5D3627001684BB /* Base */,
+				844167FE1E600170000FCFCD /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -502,6 +522,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				84AEBD9F1E5D3627001684BB /* Base */,
+				844167FF1E600170000FCFCD /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

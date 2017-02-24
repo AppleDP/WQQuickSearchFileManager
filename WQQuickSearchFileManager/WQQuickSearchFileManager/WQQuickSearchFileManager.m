@@ -40,12 +40,11 @@
     self.window = window;
     [self.window makeKeyAndVisible];
     self.window.frame = [[UIScreen mainScreen] bounds];
-    self.window.windowLevel = UIWindowLevelStatusBar;
+    self.window.windowLevel = UIWindowLevelStatusBar - 1;
     self.window.backgroundColor = [UIColor colorWithRed:0
                                                   green:0
                                                    blue:0
                                                   alpha:0];
-    
     // view frame
     CGRect wFrame = self.window.frame;
     CGRect initFrame = CGRectMake(CGRectGetWidth(wFrame)*1/10,
@@ -65,14 +64,14 @@
     // back button
     UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     backBtn.enabled = NO;
-    [backBtn setTitle:@"返回"
+    [backBtn setTitle:NSLocalizedStringFromTable(@"Back", @"WQLocalized", nil)
            forState:UIControlStateNormal];
     [backBtn setImage:[UIImage imageNamed:@"Back"]
              forState:UIControlStateNormal];
     [backBtn addTarget:self
               action:@selector(backClick:)
     forControlEvents:UIControlEventTouchUpInside];
-    backBtn.frame = CGRectMake(0, 0, 50, 44);
+    backBtn.frame = CGRectMake(5, 0, 50, 44);
     [view addSubview:backBtn];
     
     // fresh button
@@ -105,7 +104,7 @@
     // ok button
     UIButton *okBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     okBtn.enabled = NO;
-    [okBtn setTitle:@"确定"
+    [okBtn setTitle:NSLocalizedStringFromTable(@"Ok", @"WQLocalized", nil)
            forState:UIControlStateNormal];
     [okBtn setBackgroundColor:[UIColor whiteColor]];
     [okBtn addTarget:self
@@ -122,7 +121,7 @@
     [cancelBtn setTitleColor:[UIColor redColor]
                     forState:UIControlStateNormal];
     [cancelBtn setBackgroundColor:[UIColor whiteColor]];
-    [cancelBtn setTitle:@"取消"
+    [cancelBtn setTitle:NSLocalizedStringFromTable(@"Cancel", @"WQLocalized", nil)
                forState:UIControlStateNormal];
     [cancelBtn addTarget:self
                   action:@selector(cancelClick:)
@@ -286,9 +285,11 @@
          cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"WQCell"
                                                             forIndexPath:indexPath];
+    cell.textLabel.lineBreakMode = NSLineBreakByTruncatingMiddle;
     BOOL isDir = NO;
     NSString *fileName = self.contentsDirectory[indexPath.row];
-    NSString *path = [[[NSFileManager defaultManager] currentDirectoryPath] stringByAppendingPathComponent:fileName];
+    NSString *path = [[[NSFileManager defaultManager] currentDirectoryPath]
+                      stringByAppendingPathComponent:fileName];
     [[NSFileManager defaultManager] fileExistsAtPath:path
                                          isDirectory:&isDir];
     if (isDir) {
