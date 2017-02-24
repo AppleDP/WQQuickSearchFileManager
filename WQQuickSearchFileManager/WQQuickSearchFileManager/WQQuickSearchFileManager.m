@@ -79,7 +79,7 @@
                                                                   44)];
     titleLab.textAlignment = NSTextAlignmentCenter;
     titleLab.text = NSLocalizedStringFromTable(@"File Manager", @"WQLocalized", nil);
-    titleLab.textColor = self.titleColor ? self.titleColor : WQRGB(0, 0, 0, 1);
+    titleLab.textColor = self.titleColor ? self.titleColor : WQRGB(255, 255, 255, 1);
     [view addSubview:titleLab];
     
     // back button

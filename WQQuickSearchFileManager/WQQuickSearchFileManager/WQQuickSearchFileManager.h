@@ -16,5 +16,6 @@
 @property (nonatomic, weak) id<WQQuickSearchFileManagerDelegate> delegate;
 @property (nonatomic, strong) UIColor *themeColor;
 @property (nonatomic, strong) UIColor *titleColor;
+
 - (void)showRootDirectory:(NSString *)rootPath;
 @end
