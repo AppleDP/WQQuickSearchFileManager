@@ -24,6 +24,8 @@
     [super viewDidLoad];
     self.manager = [[WQQuickSearchFileManager alloc] init];
     self.manager.delegate = self;
+    self.manager.titleColor = [UIColor whiteColor];
+    NSLog(@"%@",NSHomeDirectory());
 }
 
 - (void)createWindow {
