@@ -25,7 +25,7 @@
     self.manager = [[WQQuickSearchFileManager alloc] init];
     self.manager.delegate = self;
     NSLog(@"%@",NSHomeDirectory());
-    self.rootPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,
+    self.rootPath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory,
                                                         NSUserDomainMask,
                                                         YES)[0];
     self.lab.text = [NSString stringWithFormat:@"Root: %@",self.rootPath];

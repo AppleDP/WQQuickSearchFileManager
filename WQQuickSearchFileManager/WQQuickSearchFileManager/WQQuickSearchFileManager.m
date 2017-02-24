@@ -156,10 +156,7 @@
                      completion:^(BOOL finished) {
                          if (finished) {
                              self.freshBtn.enabled = YES;
-                             NSString *rootPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,
-                                                                                      NSUserDomainMask,
-                                                                                      YES)[0];
-                             [self reloadNextDiretory:rootPath];
+                             [self reloadNextDiretory:self.rootPath];
                          }
                      }];
 }
