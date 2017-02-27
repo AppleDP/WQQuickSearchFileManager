@@ -52,10 +52,8 @@
     [self.window makeKeyAndVisible];
     self.window.frame = [[UIScreen mainScreen] bounds];
     self.window.windowLevel = UIWindowLevelStatusBar - 1;
-    self.window.backgroundColor = [UIColor colorWithRed:0
-                                                  green:0
-                                                   blue:0
-                                                  alpha:0];
+    self.window.backgroundColor = WQRGB(0, 0, 0, 0);
+    
     // view frame
     CGRect wFrame = self.window.frame;
     CGRect initFrame = CGRectMake(CGRectGetWidth(wFrame)*1/10,
@@ -171,10 +169,7 @@
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{
                          view.frame = vFrame;
-                         self.window.backgroundColor = [UIColor colorWithRed:0
-                                                                       green:0
-                                                                        blue:0
-                                                                       alpha:0.5];
+                         self.window.backgroundColor = WQRGB(0, 0, 0, 0.5);
                      }
                      completion:^(BOOL finished) {
                          if (finished) {
@@ -190,10 +185,7 @@
                           delay:0.0
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{
-                         self.window.backgroundColor = [UIColor colorWithRed:0
-                                                                       green:0
-                                                                        blue:0
-                                                                       alpha:0.0];
+                         self.window.backgroundColor = WQRGB(0, 0, 0, 0);
                          self.view.frame = CGRectMake(CGRectGetWidth(wFrame)*1/10,
                                                         CGRectGetHeight(wFrame),
                                                         CGRectGetWidth(wFrame)*4/5,
