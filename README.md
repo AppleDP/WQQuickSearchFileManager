@@ -2,7 +2,8 @@
 快速查看文件
 <p align="center" >
   <img src="https://raw.githubusercontent.com/AppleDP/WQQuickSearchFileManager/master/WQQuickSearchFileManager/Effect/WQQuickSearchFileManager.gif " alt="快速查看文件" title="快速查看文件"><br/>
- </p>
+</p>
+
 # Usage
 ```objective-c
     self.manager = [[WQQuickSearchFileManager alloc] init];
