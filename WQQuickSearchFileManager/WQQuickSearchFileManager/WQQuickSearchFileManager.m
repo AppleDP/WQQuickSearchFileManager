@@ -175,6 +175,8 @@
                          if (finished) {
                              self.freshBtn.enabled = YES;
                              [self reloadNextDiretory:self.rootPath];
+                             NSFileManager *fm = [NSFileManager defaultManager];
+                             self.rootPath = [fm currentDirectoryPath];
                          }
                      }];
 }
