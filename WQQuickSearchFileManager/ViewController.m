@@ -13,7 +13,6 @@
 <
     WQQuickSearchFileManagerDelegate
 >
-@property (nonatomic, strong) WQQuickSearchFileManager *manager;
 @property (weak, nonatomic) IBOutlet UILabel *lab;
 @property (nonatomic, copy) NSString *rootPath;
 @end
@@ -22,8 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.manager = [[WQQuickSearchFileManager alloc] init];
-    self.manager.delegate = self;
+    WQSearchFileCtrl.delegate = self;
     NSLog(@"%@",NSHomeDirectory());
 }
 
@@ -47,7 +45,7 @@
                                                         NSUserDomainMask,
                                                         YES)[0];
     self.lab.text = [NSString stringWithFormat:@"Root: %@",self.rootPath];
-    [self.manager showRootDirectory:self.rootPath];
+    [WQSearchFileCtrl showRootDirectory:self.rootPath];
 }
 
 - (IBAction)openCaches:(UIButton *)sender {
@@ -55,7 +53,7 @@
                                                         NSUserDomainMask,
                                                         YES)[0];
     self.lab.text = [NSString stringWithFormat:@"Root: %@",self.rootPath];
-    [self.manager showRootDirectory:self.rootPath];
+    [WQSearchFileCtrl showRootDirectory:self.rootPath];
 }
 
 - (void)selectedFilePath:(NSString *)path {

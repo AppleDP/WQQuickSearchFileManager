@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#ifdef WQSearchFileCtrl
+#undef WQSearchFileCtrl
+#endif
+#define WQSearchFileCtrl [WQQuickSearchFileManager shareInstance]
+
 @protocol WQQuickSearchFileManagerDelegate <NSObject>
 - (void)selectedFilePath:(NSString *)path;
 @end
@@ -16,6 +21,8 @@
 @property (nonatomic, weak) id<WQQuickSearchFileManagerDelegate> delegate;
 @property (nonatomic, strong) UIColor *themeColor;
 @property (nonatomic, strong) UIColor *titleColor;
+
++ (instancetype)shareInstance;
 
 - (void)showRootDirectory:(NSString *)rootPath;
 @end

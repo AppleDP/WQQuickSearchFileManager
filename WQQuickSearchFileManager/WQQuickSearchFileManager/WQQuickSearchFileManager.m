@@ -25,9 +25,27 @@
 @property (nonatomic, weak) UITableView *tableV;
 @property (nonatomic, copy) NSString *filePath;
 @property (nonatomic, copy) NSString *rootPath;
+@property (nonatomic, copy) NSString *currentPath;
 @end
 
 @implementation WQQuickSearchFileManager
+static WQQuickSearchFileManager *_instance;
++ (instancetype)shareInstance {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _instance = [[[self class] alloc] init];
+    });
+    return _instance;
+}
+
++ (instancetype)allocWithZone:(struct _NSZone *)zone {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _instance = [super allocWithZone:zone];
+    });
+    return _instance;
+}
+
 - (void)setContentsDirectory:(NSArray<NSString *> *)contentsDirectory {
     if (_contentsDirectory == nil) {
         _contentsDirectory = [[NSArray alloc] init];
@@ -254,6 +272,7 @@
     // 设置当前路径
     NSFileManager *fm = [NSFileManager defaultManager];
     [fm changeCurrentDirectoryPath:path];
+    self.currentPath = path;
     
     // 当前路径所有文件以及文件夹
     NSArray *directory = [fm contentsOfDirectoryAtPath:path
@@ -290,7 +309,7 @@
 }
 
 - (void)backClick:(UIButton *)sender {
-    NSString *currentPath = [[NSFileManager defaultManager] currentDirectoryPath];
+    NSString *currentPath = self.currentPath;
     NSString *lastPath = [currentPath stringByDeletingLastPathComponent];
     if ([lastPath isEqualToString:self.rootPath]) {
         sender.enabled = NO;
@@ -312,7 +331,7 @@
 }
 
 - (void)freshClick:(UIButton *)sender {
-    NSString *currenPath = [[NSFileManager defaultManager] currentDirectoryPath];
+    NSString *currenPath = self.currentPath;
     [self reloadRefreshDiretory:currenPath];
 }
 
@@ -333,7 +352,7 @@
                                                             forIndexPath:indexPath];
     cell.textLabel.lineBreakMode = NSLineBreakByTruncatingMiddle;
     NSString *fileName = self.contentsDirectory[indexPath.row];
-    NSString *path = [[[NSFileManager defaultManager] currentDirectoryPath]
+    NSString *path = [self.currentPath
                       stringByAppendingPathComponent:fileName];
     cell.imageView.image = [self imageWithFilePath:path];
     cell.textLabel.text = fileName;
@@ -344,7 +363,7 @@
 didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     self.okBtn.enabled = YES;
     NSString *fileName = self.contentsDirectory[indexPath.row];
-    NSString *currentPath = [[NSFileManager defaultManager] currentDirectoryPath];
+    NSString *currentPath = self.currentPath;
     NSString *filePath = [currentPath stringByAppendingPathComponent:fileName];
     BOOL isDir = NO;
     [[NSFileManager defaultManager] fileExistsAtPath:filePath
@@ -359,14 +378,3 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     }
 }
 @end
-
-
-
-
-
-
-
-
-
-
-
